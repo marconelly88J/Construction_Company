@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #000000;
+  color: #ffff00;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+#main {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.machine-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.machine-cover {
+  width: 300px;
+  max-width: 100%;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.machine-cover img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: 0 10px 10px black;
+}
+
+.machine-info {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.machine-info div {
+  margin-bottom: 10px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

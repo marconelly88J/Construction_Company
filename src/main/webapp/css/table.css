@@ -1,0 +1,62 @@
+/* CSS for worker-list.jsp */
+
+/* Body styles */
+body {
+  background-color: #ffffcc; /* Yellow */
+  color: #000000; /* Black */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  color: #000000; /* Black */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Table styles */
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #000000; /* Black */
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #000000; /* Black */
+  color: #ffffff; /* White */
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff; /* White */
+}
+
+/* Button styles */
+button {
+  background-color: #000000; /* Black */
+  border: none;
+  color: #ffffff; /* White */
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: #cccccc; /* Light Gray */
+  color: #000000; /* Black */
+}
+
+a {
+  color: #000000; /* Black */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
